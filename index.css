@@ -20,8 +20,7 @@ body {
 }
 
 .clock{
-    height: 50%;
-    border: 5px solid black;
+    height: 70%;
 }
 
 .js-weather {
@@ -52,14 +51,18 @@ body {
     color: #7f8c8d;
 }
 
+.nameFormInput {
+    font-size: 15pt;
+}
+
 .nameForm,
 .welcome {
-    position: relative;
     display: none;
 }
 
 .showing {
     display: block;
+    height: 50%;
 }
 
 @keyframes fadeIn{
@@ -78,5 +81,5 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    animation: fadeIn 1s linear;
+    animation: fadeIn 0.5s linear;
 }
